@@ -23,9 +23,9 @@ body {
 
 .card {
   border-radius: 1rem;
-  border: 1px solid #E4E7EC;
-  background-color: #FFFFFF;
-  box-shadow: 0 18px 45px rgba(6, 25, 56, 0.08);
+  border: 1px solid rgba(77, 198, 164, 0.2);
+  background-color: rgba(30, 30, 47, 0.6);
+  box-shadow: 0 18px 45px rgba(20, 67, 73, 0.3);
 }
 
 .pill {
@@ -33,23 +33,22 @@ body {
 }
 
 .gradient-hero {
-  background: radial-gradient(circle at top left, #176591 0, #0C2A4D 45%),
-    radial-gradient(circle at bottom right, #4A75A6 0, #020817 45%);
+  background: linear-gradient(135deg, #3c8886 0%, #409d94 50%, #31666a 100%);
 }
 
 .gradient-cta {
-  background-image: linear-gradient(135deg, #176591, #4A75A6);
+  background-image: linear-gradient(135deg, #4dc6a4, #3bc6c1);
 }
 
 .bg-grid {
   background-image: linear-gradient(
       to right,
-      rgba(231, 241, 250, 0.08) 1px,
+      rgba(77, 198, 164, 0.05) 1px,
       transparent 1px
     ),
     linear-gradient(
       to bottom,
-      rgba(231, 241, 250, 0.08) 1px,
+      rgba(77, 198, 164, 0.05) 1px,
       transparent 1px
     );
   background-size: 32px 32px;

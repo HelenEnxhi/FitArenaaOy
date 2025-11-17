@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function GymsPage() {
   const { packages } = pricingData;
   return (
-    <div className="bg-[#020817] text-white">
-      <section className="bg-[#0C2A4D]">
+    <div className="bg-[#1e1e2f] text-white">
+      <section className="bg-[#144349]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <h1 className="heading text-2xl font-semibold text-white sm:text-3xl">
             Packages for modern gyms
@@ -22,7 +22,7 @@ export default function GymsPage() {
         </div>
       </section>
 
-      <section className="bg-[#020817]">
+      <section className="bg-[#1e1e2f]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="grid gap-6 lg:grid-cols-4">
             {packages.map((pkg) => {
@@ -30,14 +30,14 @@ export default function GymsPage() {
               return (
                 <div
                   key={pkg.id}
-                  className={`card flex h-full flex-col bg-[#020817] ${
-                    isGrowth ? "ring-2 ring-[#176591]" : ""
+                  className={`card flex h-full flex-col bg-[#31666a]/30 border border-[#409d94]/30 ${
+                    isGrowth ? "ring-2 ring-[#4dc6a4]" : ""
                   }`}
                 >
                   <div className="flex-1 p-5">
                     <div className="flex items-center justify-between gap-2">
                       <div>
-                        <p className="text-xs font-medium uppercase tracking-wide text-[#E7F1FA]/70">
+                        <p className="text-xs font-medium uppercase tracking-wide text-white/70">
                           {pkg.subtitle}
                         </p>
                         <h2 className="mt-1 text-sm font-semibold text-white">
@@ -45,24 +45,24 @@ export default function GymsPage() {
                         </h2>
                       </div>
                       {isGrowth && (
-                        <span className="pill bg-[#176591] px-3 py-1 text-[10px] font-semibold text-white">
+                        <span className="pill bg-[#4dc6a4] px-3 py-1 text-[10px] font-semibold text-[#1e1e2f]">
                           Bestseller
                         </span>
                       )}
                     </div>
-                    <p className="mt-3 text-sm font-semibold text-[#4A75A6]">
+                    <p className="mt-3 text-sm font-semibold text-[#3bc6c1]">
                       {pkg.priceRange}
                     </p>
-                    <ul className="mt-4 space-y-2 text-xs text-[#E7F1FA]/85">
+                    <ul className="mt-4 space-y-2 text-xs text-white/80">
                       {pkg.features.map((feature) => (
                         <li key={feature} className="flex items-start gap-2">
-                          <span className="mt-[3px] h-1.5 w-1.5 rounded-full bg-[#176591]" />
+                          <span className="mt-[3px] h-1.5 w-1.5 rounded-full bg-[#4dc6a4]" />
                           <span>{feature}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                  <div className="border-t border-white/5 px-5 py-4 text-xs text-[#E7F1FA]/75">
+                  <div className="border-t border-[#31666a] px-5 py-4 text-xs text-white/75">
                     {pkg.id === "social" ? (
                       <p>
                         B2C add-on that can be layered on top of any package to

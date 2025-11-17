@@ -33,8 +33,8 @@ const roadmap = [
 
 export default function InvestorsPage() {
   return (
-    <div className="bg-[#020817] text-white">
-      <section className="bg-[#0C2A4D]">
+    <div className="bg-[#1e1e2f] text-white">
+      <section className="bg-[#144349]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <h1 className="heading text-2xl font-semibold text-white sm:text-3xl">
             Investor overview
@@ -47,7 +47,7 @@ export default function InvestorsPage() {
         </div>
       </section>
 
-      <section className="bg-[#020817]">
+      <section className="bg-[#1e1e2f]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16 space-y-12">
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="space-y-4 text-sm text-[#E7F1FA]/85">

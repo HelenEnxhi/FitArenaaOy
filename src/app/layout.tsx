@@ -29,11 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${poppins.variable} bg-[#020817] text-[#1A1A1A] antialiased`}
+        className={`${inter.variable} ${poppins.variable} bg-[#1e1e2f] text-white antialiased`}
       >
-        <div className="flex min-h-screen flex-col bg-[#020817]">
+        <div className="flex min-h-screen flex-col bg-[#1e1e2f]">
           <Navbar />
-          <main className="flex-1 bg-[#020817]">{children}</main>
+          <main className="flex-1 bg-[#1e1e2f]">{children}</main>
           <Footer />
         </div>
       </body>

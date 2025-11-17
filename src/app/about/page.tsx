@@ -6,8 +6,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="bg-[#020817] text-white">
-      <section className="bg-[#0C2A4D]">
+    <div className="bg-[#1e1e2f] text-white">
+      <section className="bg-[#144349]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <h1 className="heading text-2xl font-semibold text-white sm:text-3xl">
             About FitArenaa Oy
@@ -20,7 +20,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[#020817]">
+      <section className="bg-[#1e1e2f]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="grid gap-10 lg:grid-cols-[1.3fr,1fr]">
             <div className="space-y-6 text-sm leading-relaxed text-[#E7F1FA]/85">
