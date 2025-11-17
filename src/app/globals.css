@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
 }
+
+.heading {
+  font-family: var(--font-poppins), system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid #E4E7EC;
+  background-color: #FFFFFF;
+  box-shadow: 0 18px 45px rgba(6, 25, 56, 0.08);
+}
+
+.pill {
+  border-radius: 999px;
+}
+
+.gradient-hero {
+  background: radial-gradient(circle at top left, #176591 0, #0C2A4D 45%),
+    radial-gradient(circle at bottom right, #4A75A6 0, #020817 45%);
+}
+
+.gradient-cta {
+  background-image: linear-gradient(135deg, #176591, #4A75A6);
+}
+
+.bg-grid {
+  background-image: linear-gradient(
+      to right,
+      rgba(231, 241, 250, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(231, 241, 250, 0.08) 1px,
+      transparent 1px
+    );
+  background-size: 32px 32px;
+}
+

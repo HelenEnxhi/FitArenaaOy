@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "subtitle": "Essential AI",
+      "priceRange": "€230–€470/mo",
+      "highlight": false,
+      "features": [
+        "Basic smart class scheduling",
+        "Progress dashboard",
+        "Live occupancy",
+        "Educational library",
+        "AI chatbot",
+        "Admin dashboard (1 user)"
+      ]
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "subtitle": "Predictive AI",
+      "priceRange": "€400–€900/mo",
+      "highlight": true,
+      "features": [
+        "All Starter features",
+        "AI Fitness Buddy",
+        "AI Session Planner",
+        "Wellness analytics",
+        "Member exercise tracking",
+        "Manager analytics dashboard"
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "subtitle": "Full AI Suite",
+      "priceRange": "€880–€1,750/mo",
+      "highlight": false,
+      "features": [
+        "All Growth features",
+        "Energy efficiency dashboard",
+        "Benchmarking",
+        "Corporate wellness integration",
+        "Dedicated AI support"
+      ]
+    },
+    {
+      "id": "social",
+      "name": "FitArenaa Social Add-On",
+      "subtitle": "B2C Social Layer",
+      "priceRange": "€1.99/member/mo",
+      "highlight": false,
+      "features": [
+        "AI social matching feature (“Train Together”)",
+        "Inclusive partner recommendations",
+        "Flexible privacy controls",
+        "Works across multi-club networks"
+      ]
+    }
+  ]
+}
+
+
