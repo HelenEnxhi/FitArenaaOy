@@ -118,7 +118,7 @@ export default function AboutPage() {
 
               <div className="card bg-[#E7F1FA]">
                 <div className="p-5">
-                  <h2 className="heading text-sm font-semibold text-[#0C2A4D]">
+                  <h2 className="heading text-sm font-semibold text-white">
                     Founders
                   </h2>
                   <div className="mt-4 space-y-4 text-sm text-[#1A1A1A]">
