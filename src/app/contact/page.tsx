@@ -22,8 +22,15 @@ export default function ContactPage() {
 
       <section className="bg-[#1e1e2f]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16 grid gap-10 lg:grid-cols-[1.4fr,1fr]">
+          
+          {/* CONTACT FORM */}
           <div className="card bg-[#020817]">
-            <form className="space-y-4 p-6 text-sm">
+            <form
+              action="mailto:contact@fitarenaa.fi"
+              method="POST"
+              encType="text/plain"
+              className="space-y-4 p-6 text-sm"
+            >
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label
@@ -115,19 +122,19 @@ export default function ContactPage() {
             </form>
           </div>
 
+          {/* RIGHT SIDE CONTENT */}
           <div className="space-y-5 text-sm text-[#E7F1FA]/85">
+            
             <div className="card bg-[#0C2A4D]">
               <div className="p-5">
                 <h2 className="heading text-sm font-semibold text-white">
                   Company details
                 </h2>
                 <p className="mt-3 text-xs text-[#E7F1FA]/85">
-                  <span className="font-semibold">Company:</span> FitArenaa Oy,
-                  Helsinki
+                  <span className="font-semibold">Company:</span> FitArenaa Oy, Helsinki
                 </p>
                 <p className="mt-2 text-xs text-[#E7F1FA]/85">
-                  <span className="font-semibold">Email:</span>{" "}
-                  contact@fitarenaa.fi
+                  <span className="font-semibold">Email:</span> contact@fitarenaa.fi
                 </p>
               </div>
             </div>
@@ -139,23 +146,25 @@ export default function ContactPage() {
                     LinkedIn
                   </h2>
                   <p className="mt-1 text-xs text-[#E7F1FA]/75">
-                    Follow FitArenaa for updates on pilots, product releases,
-                    and open roles.
+                    Follow FitArenaa for updates on pilots, product releases, and open roles.
                   </p>
                 </div>
-                <button
-                  type="button"
+
+                <a
+                  href="https://www.linkedin.com/company/fitarenaa-oy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#E4E7EC]/30 bg-[#0C2A4D]"
                 >
                   <span className="text-sm font-semibold text-white">in</span>
-                </button>
+                </a>
+
               </div>
             </div>
+
           </div>
         </div>
       </section>
     </div>
   );
 }
-
-
