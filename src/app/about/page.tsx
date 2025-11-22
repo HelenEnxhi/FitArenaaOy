@@ -124,30 +124,30 @@ export default function AboutPage() {
                   <div className="mt-4 space-y-4 text-sm text-[#1A1A1A]">
                     <div className="rounded-xl bg-white p-4">
                       <p className="font-semibold text-[#0C2A4D]">
-                        Founder 1
+                        Ihab Alsouse
                       </p>
                       <p className="text-xs text-[#4A4A4A]">
-                        CEO &amp; Product Lead
+                        Co-Founder & Co-CEO
                       </p>
                       <p className="mt-2 text-xs text-[#4A4A4A]">
-                        Background in product and strategy across digital
-                        services, with hands-on experience in gym operations and
-                        member experience. Leads product vision, partnerships,
-                        and commercial strategy at FitArenaa.
+                        Over 15 years of experience in fitness coaching, nutrition, 
+                        and gym management. Ihab brings a deep understanding of health, 
+                        training, and business operations — ensuring FitArena is built 
+                        from real industry insight.
                       </p>
                     </div>
                     <div className="rounded-xl bg-white p-4">
                       <p className="font-semibold text-[#0C2A4D]">
-                        Founder 2
+                        Enxhi Nikolla
                       </p>
                       <p className="text-xs text-[#4A4A4A]">
-                        CTO &amp; AI Engineering
+                        Co-Founder & CEO
                       </p>
                       <p className="mt-2 text-xs text-[#4A4A4A]">
-                        AI engineer with experience building predictive models
-                        and data platforms. Responsible for FitArenaa&apos;s
-                        architecture, data pipelines, and responsible AI
-                        practices.
+                        A business strategist and entrepreneur with expertise in HR, 
+                        startups, and IT. Enxhi focuses on scaling FitArena’s business, 
+                        building partnerships, and connecting innovation with 
+                        real-world gym needs.
                       </p>
                     </div>
                   </div>
