@@ -127,7 +127,7 @@ export default function ContactPage() {
                 </p>
                 <p className="mt-2 text-xs text-[#E7F1FA]/85">
                   <span className="font-semibold">Email:</span>{" "}
-                  contact@fitarenaa.example
+                  contact@fitarenaa.fi
                 </p>
               </div>
             </div>
