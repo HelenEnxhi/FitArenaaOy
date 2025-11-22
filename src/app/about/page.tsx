@@ -122,10 +122,10 @@ export default function AboutPage() {
                     Founders
                   </h2>
                   <div className="mt-4 space-y-4 text-sm text-[#1A1A1A]">
-                    <div className="rounded-xl bg-white p-4">
-                      <p className="font-semibold text-[#0C2A4D]">
+                    <article className="rounded-xl bg-white p-4">
+                      <h3 className="font-semibold text-[#0C2A4D]">
                         Ihab Alsouse
-                      </p>
+                      </h3>
                       <p className="text-xs text-[#4A4A4A]">
                         Co-Founder & Co-CEO
                       </p>
@@ -135,11 +135,11 @@ export default function AboutPage() {
                         training, and business operations — ensuring FitArena is built 
                         from real industry insight.
                       </p>
-                    </div>
-                    <div className="rounded-xl bg-white p-4">
-                      <p className="font-semibold text-[#0C2A4D]">
+                    </article>
+                    <article className="rounded-xl bg-white p-4">
+                      <h3 className="font-semibold text-[#0C2A4D]">
                         Enxhi Nikolla
-                      </p>
+                      </h3>
                       <p className="text-xs text-[#4A4A4A]">
                         Co-Founder & CEO
                       </p>
@@ -149,7 +149,7 @@ export default function AboutPage() {
                         building partnerships, and connecting innovation with 
                         real-world gym needs.
                       </p>
-                    </div>
+                    </article>
                   </div>
                 </div>
               </div>
