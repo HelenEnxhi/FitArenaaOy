@@ -117,49 +117,40 @@ export default function AboutPage() {
               </div>
 
               <div className="card bg-[#E7F1FA]">
-  <div className="p-5">
-    <h2 className="heading text-sm font-semibold text-white">
-      Founders
-    </h2>
-
-    <div className="mt-4 grid grid-cols-1 gap-4 text-sm text-[#1A1A1A] md:grid-cols-2">
-      
-      {/* Column 1 */}
-      <div className="rounded-xl bg-white p-4">
-        <p className="font-semibold text-[#0C2A4D]">
-          Ihab Alsouse
-        </p>
-        <p className="text-xs text-[#4A4A4A]">
-          Co-Founder & Co-CEO
-        </p>
-        <p className="mt-2 text-xs text-[#4A4A4A]">
-          Over 15 years of experience in fitness coaching, nutrition,
-          and gym management. Ihab brings a deep understanding of health,
-          training, and business operations — ensuring FitArena is built
-          from real industry insight.
-        </p>
-      </div>
-
-      {/* Column 2 */}
-      <div className="rounded-xl bg-white p-4">
-        <p className="font-semibold text-[#0C2A4D]">
-          Enxhi Nikolla
-        </p>
-        <p className="text-xs text-[#4A4A4A]">
-          Co-Founder & CEO
-        </p>
-        <p className="mt-2 text-xs text-[#4A4A4A]">
-          A business strategist and entrepreneur with expertise in HR,
-          startups, and IT. Enxhi focuses on scaling FitArena’s business,
-          building partnerships, and connecting innovation with real-world
-          gym needs.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</div>
-
+                <div className="p-5">
+                  <h2 className="heading text-sm font-semibold text-white">
+                    Founders
+                  </h2>
+                  <div className="mt-4 space-y-4 text-sm text-[#1A1A1A]">
+                    <div className="rounded-xl bg-white p-4">
+                      <p className="font-semibold text-[#0C2A4D]">
+                        Ihab Alsouse
+                      </p>
+                      <p className="text-xs text-[#4A4A4A]">
+                        Co-Founder & Co-CEO
+                      </p>
+                      <p className="mt-2 text-xs text-[#4A4A4A]">
+                        Over 15 years of experience in fitness coaching, nutrition, 
+                        and gym management. Ihab brings a deep understanding of health, 
+                        training, and business operations — ensuring FitArena is built 
+                        from real industry insight.
+                      </p>
+                    </div>
+                    <div className="rounded-xl bg-white p-4">
+                      <p className="font-semibold text-[#0C2A4D]">
+                        Enxhi Nikolla
+                      </p>
+                      <p className="text-xs text-[#4A4A4A]">
+                        Co-Founder & CEO
+                      </p>
+                      <p className="mt-2 text-xs text-[#4A4A4A]">
+                        A business strategist and entrepreneur with expertise in HR, 
+                        startups, and IT. Enxhi focuses on scaling FitArena’s business, 
+                        building partnerships, and connecting innovation with 
+                        real-world gym needs.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -169,5 +160,3 @@ export default function AboutPage() {
     </div>
   );
 }
-
-
