@@ -135,9 +135,7 @@ export default function AboutPage() {
                         training, and business operations — ensuring FitArena is built 
                         from real industry insight.
                       </p>
-                    </div>
-                    <div className="rounded-xl bg-white p-4">
-                      <p className="font-semibold text-[#0C2A4D]">
+                       <p className="font-semibold text-[#0C2A4D]">
                         Enxhi Nikolla
                       </p>
                       <p className="text-xs text-[#4A4A4A]">
@@ -150,6 +148,7 @@ export default function AboutPage() {
                         real-world gym needs.
                       </p>
                     </div>
+                    
                   </div>
                 </div>
               </div>
